@@ -56,12 +56,12 @@ p {
 }
 
 ::-moz-selection {
-  background: #b8a07e;
+  background: #bf8fec;
   color: #fff;
 }
 
 ::selection {
-  background: #b8a07e;
+  background: #bf8fec;
   color: #fff;
 }
 
@@ -130,7 +130,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  background: #bf8fec;
 }
 
 .mb-30 {
@@ -139,6 +139,10 @@ p {
 
 .main-content {
   padding-top: 140px;
+}
+
+.hero-content .bi {
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -151,7 +155,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #b8a07e;
+  background: #bf8fec;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -244,7 +248,7 @@ p {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #b8a07e;
+  color: #bf8fec;
 }
 .navbar .dropdown ul {
   display: block;
@@ -271,7 +275,7 @@ p {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #b8a07e;
+  color: #bf8fec;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -356,7 +360,7 @@ p {
   color: #4b4a4a;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #b8a07e;
+  color: #bf8fec;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -382,7 +386,7 @@ p {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #b8a07e;
+  color: #bf8fec;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -392,7 +396,8 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
+  /* background: url("../img/home-bg.jpg") repeat scroll center center/cover; */
+  background: linear-gradient(45deg, #aaa, #fff);
   height: 100vh;
   width: 100%;
 }
@@ -498,7 +503,7 @@ p {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #bf8fec;
 }
 
 #about .div-img-bg .about-img img {
@@ -551,7 +556,7 @@ p {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #bf8fec;
   line-height: 44px;
 }
 
@@ -564,10 +569,10 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  border: 1px solid #bf8fec;
 }
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  background-color: #bf8fec;
 }
 
 /*--------------------------------------------------------------
@@ -598,7 +603,7 @@ p {
   transition: all 0.3s ease-in-out;
 }
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  color: #b8a07e;
+  color: #bf8fec;
 }
 #portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -631,10 +636,10 @@ p {
 }
 #portfolio .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
-  right: 40px;
+  right: 10px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #b8a07e;
+  color: #bf8fec;
 }
 #portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #cab89f;
@@ -665,10 +670,10 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  border: 1px solid #bf8fec;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  background-color: #bf8fec;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -747,7 +752,7 @@ p {
 }
 
 .journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #bf8fec;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -889,7 +894,7 @@ p {
 }
 
 .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #bf8fec;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -908,7 +913,7 @@ p {
   margin-left: 5px;
 }
 
-/* Commonts */
+/* Comments */
 .comments {
   background: #fff;
 }
@@ -973,7 +978,7 @@ blockquote {
   background-color: #f2f2f2;
   margin: 30px 0;
   border: none;
-  border-left: 4px solid #b8a07e;
+  border-left: 4px solid #bf8fec;
 }
 
 /*--------------------------------------------------------------
@@ -1012,7 +1017,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #bf8fec;
   transition: all 0.5s ease-in-out 0s;
 }
 
