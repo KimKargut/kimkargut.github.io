@@ -1,2 +1,4 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+videos/DivineWitness.mp4 filter=lfs diff=lfs merge=lfs -text
+videos/Sepulchre.mp4 filter=lfs diff=lfs merge=lfs -text
 . !text !filter !merge !diff
