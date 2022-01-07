@@ -502,15 +502,15 @@ p {
 }
 
 #about .div-img-bg {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   border: 20px solid #bf8fec;
 }
 
 #about .div-img-bg .about-img img {
-  width: 100%;
+  width: calc(100% + 20px);
   box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
-  margin-top: -60px;
-  margin-left: 40px;
+  margin-top: -40px;
+  margin-left: 20px;
   height: 400px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -636,9 +636,9 @@ p {
 }
 #portfolio .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
-  right: 10px;
+  right: 15px;
   font-size: 24px;
-  top: calc(50% - 18px);
+  top: calc(50% - 12px);
   color: #bf8fec;
 }
 #portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
@@ -968,7 +968,7 @@ p {
   padding-left: 10%;
 }
 
-/* Commonts form */
+/* Comments form */
 .cmt {
   background: #fff;
 }
